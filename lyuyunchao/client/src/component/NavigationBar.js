@@ -18,14 +18,14 @@ export const NavigationBar = () => {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
-          Logo
+          react
         </Typography>
 
         {/* 直接链接在工具栏 */}
         <Button color="inherit" component={Link} to="/">Home</Button>
         <Button color="inherit" component={Link} to="/login">Login</Button>
         <Button color="inherit" component={Link} to="/register">Register</Button>
-        <Button color="inherit" component={Link} to="/createpost">Create Post</Button>
+        <Button color="inherit" component={Link} to="/createpost">Post</Button>
         {/* 根据需要添加更多按钮 */}
 
         <div>
